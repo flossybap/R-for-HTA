@@ -414,7 +414,7 @@ QDage<-QDage1+QDage2+QDage3+QDage4+QDage5+QDage6+QDage7
 
 Probability_CAV_CI_L<-array(-99,dim=c(2846))
 
-for (k in 1:622)
+for (k in 1:2846)
 {record<-data[k,]
 
 Qmatrix<-QBase *
@@ -434,6 +434,8 @@ Probability_CAV_CI_L[k]<-Pmatrix[1,2]
 
 
 }
+
+data$P_CAV_CI_L<-Probability_CAV_CI_L
 
 # Compare the previous probability and this lower confidence interval in the data set
 
