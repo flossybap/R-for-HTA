@@ -1,3 +1,3 @@
 # R-for-HTA
 
-This is the code used for my session on Monday 12th October R for HTA showcase
+This is the code used for my presentation at UMIT on Tuesday 25th March 2025 at UMIT.
