@@ -9,9 +9,7 @@
 ###########
 
 install.packages("msm")
-install.packages("expm")
 library(msm)
-library(expm)
 
 # Pre-existing data set
 data<-cav
